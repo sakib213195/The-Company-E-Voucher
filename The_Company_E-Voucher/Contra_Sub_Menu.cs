@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace The_Company_E_Voucher
 {
-    public partial class Form1 : Form
+    public partial class Contra_Sub_Menu : Form
     {
-        public Form1()
+        public Contra_Sub_Menu()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Main_Menu openForm = new Main_Menu();
+            openForm.Show();
+            Visible = false;
         }
     }
 }
