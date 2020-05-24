@@ -73,7 +73,7 @@ namespace The_Company_E_Voucher
             Bitmap bitmap = new Bitmap(this.Width, this.Height);
             DrawToBitmap(bitmap, new Rectangle(0, 0, bitmap.Width, bitmap.Height));
             string fileName = string.Format(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) +
-                      @"\Payment_Voucher" + "_" +
+                      @"\Contra_Voucher_Bank_to_Bank" + "_" +
                       DateTime.Now.ToString("(dd_MMMM_hh_mm_ss_tt)") + ".jpeg");
 
             bitmap.Save(fileName);

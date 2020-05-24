@@ -111,6 +111,9 @@
     <EmbeddedResource Include="B2B.resx">
       <DependentUpon>B2B.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="B2O.resx">
+      <DependentUpon>B2O.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contra_Sub_Menu.resx">
       <DependentUpon>Contra_Sub_Menu.cs</DependentUpon>
     </EmbeddedResource>
