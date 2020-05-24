@@ -23,5 +23,26 @@ namespace The_Company_E_Voucher
             openForm.Show();
             Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            O2B openForm = new O2B();
+            openForm.Show();
+            Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            B2O openForm = new B2O();
+            openForm.Show();
+            Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            B2B openForm = new B2B();
+            openForm.Show();
+            Visible = false;
+        }
     }
 }

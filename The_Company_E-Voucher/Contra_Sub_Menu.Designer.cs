@@ -41,12 +41,13 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(325, 292);
+            this.button4.Location = new System.Drawing.Point(513, 292);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(129, 42);
             this.button4.TabIndex = 32;
             this.button4.Text = "Bank to Office";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -73,12 +74,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(527, 292);
+            this.button2.Location = new System.Drawing.Point(325, 292);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 42);
             this.button2.TabIndex = 29;
             this.button2.Text = "Bank to Bank";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -88,6 +90,7 @@
             this.button1.TabIndex = 28;
             this.button1.Text = "Office to Bank";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
