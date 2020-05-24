@@ -46,5 +46,12 @@ namespace The_Company_E_Voucher
             Visible = false;
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            IOU_Voucher openForm = new IOU_Voucher();
+            openForm.Show();
+            Visible = false;
+        }
     }
 }

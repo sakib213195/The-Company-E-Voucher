@@ -58,6 +58,12 @@
     <Compile Include="Expense_Voucher.Designer.cs">
       <DependentUpon>Expense_Voucher.cs</DependentUpon>
     </Compile>
+    <Compile Include="IOU_Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOU_Voucher.Designer.cs">
+      <DependentUpon>IOU_Voucher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Expense_Voucher.resx">
       <DependentUpon>Expense_Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOU_Voucher.resx">
+      <DependentUpon>IOU_Voucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main_Menu.resx">
       <DependentUpon>Main_Menu.cs</DependentUpon>
