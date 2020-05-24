@@ -76,6 +76,12 @@
     <Compile Include="Payment_Voucher.Designer.cs">
       <DependentUpon>Payment_Voucher.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personal_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personal_Loan.Designer.cs">
+      <DependentUpon>Personal_Loan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receipt_Voucher.cs">
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Payment_Voucher.resx">
       <DependentUpon>Payment_Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal_Loan.resx">
+      <DependentUpon>Personal_Loan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

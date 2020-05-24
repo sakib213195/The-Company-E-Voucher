@@ -53,5 +53,12 @@ namespace The_Company_E_Voucher
             openForm.Show();
             Visible = false;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Personal_Loan openForm = new Personal_Loan();
+            openForm.Show();
+            Visible = false;
+        }
     }
 }
