@@ -30,5 +30,13 @@ namespace The_Company_E_Voucher
             openForm.Show();
             Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Receipt_Voucher openForm = new Receipt_Voucher();
+            openForm.Show();
+            Visible = false;
+
+        }
     }
 }
