@@ -1,4 +1,4 @@
-Welcome to The Company E-Voucher Installation.
+Welcome to The Company E-Voucher
 
 Requirements for the Software to run:
 1.Microsoft Access or Software that reads .accdb files extention 
