@@ -7,7 +7,7 @@ Requirements for the Software to run:
 4. Access Database Engine 2007/2010
 
 Installation Guideline
-1. Open setup.exe and install
+1. Unzip The Company Voucher-Installation Package.zip, open setup.exe and install
 2. Copy and Paste files inside Database folder to Local Disk D of your Computer
 **Easier if The Company E-Vouhcer File is extracted. 
 
