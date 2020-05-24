@@ -4,9 +4,13 @@ Software developed for creating E-Vouchers of financial transactions of a regula
 Welcome to The Company E-Voucher
 
 Requirements for the Software to run
+
 1.Microsoft Access or Software that reads .accdb files extention 
+
 2.Microsoft Excel or Software that reads .xlsx files extention 
+
 3. .Net Framework 4.7.2
+
 4. Access Database Engine 2007/2010
 
 Installation Guideline
